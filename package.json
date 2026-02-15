@@ -1,6 +1,6 @@
 {
   "name": "danx-icon",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A collection of SVG icons from popular icon libraries",
   "main": "index.ts",
   "module": "index.ts",
