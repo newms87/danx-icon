@@ -1,6 +1,6 @@
 {
   "name": "danx-icon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A collection of SVG icons from popular icon libraries",
   "main": "index.ts",
   "module": "index.ts",
@@ -14,7 +14,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "publish:patch": "./scripts/publish.sh patch",
+    "publish:minor": "./scripts/publish.sh minor",
+    "publish:major": "./scripts/publish.sh major"
   },
   "dependencies": {},
   "devDependencies": {}
